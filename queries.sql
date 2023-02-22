@@ -13,9 +13,9 @@ SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 -- Then roll back the change and verify that the species columns went back to the state before the transaction.
 BEGIN;
 UPDATE animals SET species = 'unspecified';
-TABLE animals;
+SELECT species FROM animals;
 ROLLBACK;
-TABLE animals;
+SELECT species FROM animals;
 
 -- Inside a transaction:
 -- Update the animals table by setting the species column to digimon for all animals that have a name ending in mon.
@@ -25,9 +25,9 @@ TABLE animals;
 BEGIN;
 UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
 UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
-TABLE animals;
+SELECT species FROM animals;
 COMMIT;
-TABLE animals;
+SELECT species FROM animals;
 
 -- Now, take a deep breath and... Inside a transaction delete all records in the animals table, then roll back the transaction.
 -- After the rollback verify if all records in the animals table still exists. After that, you can start breathing as usual ;)
