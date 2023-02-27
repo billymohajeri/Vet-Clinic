@@ -223,6 +223,7 @@ WHERE VE.name = 'Maisy Smith'
 GROUP BY S.name
 ORDER BY COUNT(*) DESC LIMIT 1;
 
+
 EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
 
 EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
