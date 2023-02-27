@@ -26,6 +26,7 @@
   <img src="./database-schema-diagram.png" alt="database-schema-diagram" />
   <br/>
 </div>
+
 [Open in drawSQL](https://drawsql.app/teams/a-341/diagrams/vet-clinic)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
