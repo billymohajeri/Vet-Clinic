@@ -1,6 +1,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [📊 Database Schema Diagram](#database-schema-diagram)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -19,6 +20,15 @@
 # 📖 Vet Clinic <a name="about-project"></a>
 
 **Vet Clinic** is a project to create the initial data structure for a veterinary clinic using a relational database. It implements PostgreSQL and contains all the data about animals.
+
+### 📊 Database Schema Diagram <a name="database-schema-diagram"></a>
+<div align="center">
+  <img src="./database-schema-diagram.png" alt="database-schema-diagram" />
+  <br/>
+</div>
+[Open in drawSQL](https://drawsql.app/teams/a-341/diagrams/vet-clinic)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🛠 Built With <a name="built-with"></a>
 
