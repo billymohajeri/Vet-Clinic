@@ -101,6 +101,12 @@ That's it! Congratulations, you have created your database and connected to it. 
 - Twitter: [@BillyMohajeri](https://twitter.com/BillyMohajeri)
 - LinkedIn: [@BillyMohajeri](https://www.linkedin.com/in/billymohajeri)
 
+👤 **Yuvenal Njoroge**
+
+- GitHub: [@yuvenalmash](https://github.com/yuvenalmash)
+- Twitter: [@_Juvenal_](https://twitter.com/_Juvenal)
+- LinkedIn: [Yuvenal Njoroge](https://linkedin.com/in/yuvenal-njoroge)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
